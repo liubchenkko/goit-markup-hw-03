@@ -1,0 +1,188 @@
+:root {
+  --accent-color: #2196f3;
+  --first-text-color: #212121;
+  --second-text-color: #757575;
+  --third-text-color: #ffffff;
+  --background-color-white: #ffffff;
+  --background-color-gray: #2f303a;
+  --black-color: #000000;
+  --hero-button-hover-color: #188ce8;
+}
+
+/*============MAIN PAGE============*/
+/*======HEADER======*/
+
+body {
+  font-family: Roboto, OpenSans, Raleway, sans-serif;
+  background-color: var(--background-color-white);
+  color: var(--first-text-color);
+}
+
+.list {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+
+.header {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+
+.logo-link {
+  font-family: Raleway;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: var(--accent-color);
+}
+
+.logo-link-header {
+  color: var(--black-color);
+}
+
+.nav-color {
+  color: var(--first-text-color);
+}
+.nav-color:visited {
+  color: var(--first-text-color);
+}
+.contact-color {
+  color: var(--second-text-color);
+}
+.contact-color:visited {
+  color: var(--second-text-color);
+}
+
+.header-list .header-list-link:hover,
+.header-list .header-list-link:focus,
+.header-list .header-list-link:active {
+  color: var(--accent-color);
+}
+
+.header-list .header-list-link.current {
+  color: var(--accent-color);
+}
+
+.contact-list .header-list-link:hover,
+.contact-list .header-list-link:focus,
+.contact-list .header-list-link:active {
+  color: var(--accent-color);
+}
+
+/*======END HEADER======*/
+
+/*======HERO======*/
+
+.hero {
+  align-items: center;
+  text-align: center;
+  background-color: var(--background-color-gray);
+}
+.hero-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--third-text-color);
+}
+
+.hero-button {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+
+  letter-spacing: 0.06em;
+  background-color: var(--accent-color);
+  color: var(--third-text-color);
+  cursor: pointer;
+}
+
+.hero-button:hover,
+.hero-button:focus,
+.hero-button:active {
+  background: var(--hero-button-hover-color);
+}
+
+/*======END HERO======*/
+
+/*======MAIN======*/
+.features-items {
+  color: var(--second-text-color);
+}
+/*======END MAIN======*/
+
+/*======OUR TEAM======*/
+.team-section {
+  background-color: #f5f4fa;
+}
+.team-items {
+  color: var(--second-text-color);
+}
+
+/*======END OUR TEAM======*/
+
+/*======FOOTER======*/
+
+.footer {
+  background-color: var(--background-color-gray);
+}
+
+.logo-link-footer {
+  color: var(--third-text-color);
+}
+
+.list-footer {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--third-text-color);
+}
+
+.footer-contact {
+  color: rgba(255, 255, 255, 0.6);
+  text-decoration: none;
+}
+
+/*======END FOOTER======*/
+/*============END MAIN PAGE============*/
+
+/*============PORTFOLIO PAGE============*/
+
+.header-list .header-list-link.current {
+  color: var(--accent-color);
+}
+
+.buttons-filtr {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.buttons-filtr-items {
+  color: var(--black-color);
+  cursor: pointer;
+}
+
+.buttons-filtr-items:hover,
+.buttons-filtr-items:focus,
+.buttons-filtr-items:active {
+  color: var(--third-text-color);
+  background-color: var(--accent-color);
+}
+
+.portfolio-items {
+  color: var(--second-text-color);
+}
+
+/*======FOOTER======*/
+/*============END PORTFOLIO PAGE============*/
