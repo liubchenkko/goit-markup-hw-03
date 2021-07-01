@@ -84,6 +84,8 @@ a {
 .header-container {
   display: flex;
   width: 1200px;
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 
 .navigation {
@@ -110,8 +112,6 @@ a {
 
 .header-list {
   display: flex;
-  margin-top: 32px;
-  margin-bottom: 32px;
 }
 
 .menu-list:not(:last-child) {
@@ -154,6 +154,8 @@ a {
   align-items: center;
   text-align: center;
   background-color: var(--background-color-gray);
+  padding-top: 200px;
+  padding-bottom: 200px;
 }
 .hero-title {
   font-weight: 900;
@@ -162,7 +164,6 @@ a {
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: var(--third-text-color);
-  margin-top: 200px;
   margin-bottom: 30px;
   max-width: 696px;
 }
@@ -176,9 +177,8 @@ a {
   background-color: var(--accent-color);
   color: var(--third-text-color);
   cursor: pointer;
-  margin-bottom: 200px;
   padding: 10px 32px;
-  /* box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15); */
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   border: none;
 }
@@ -196,6 +196,10 @@ a {
 .features-list {
   display: flex;
   margin-bottom: 94px;
+}
+
+.features-title {
+  text-transform: uppercase;
 }
 
 .features-text {
@@ -238,7 +242,7 @@ a {
 }
 .team-post {
   color: var(--second-text-color);
-  padding-bottom: 30px;
+  /* padding-bottom: 30px; */
 }
 
 .team-list {
@@ -258,9 +262,14 @@ a {
   border-radius: 0px 0px 4px 4px;
 }
 
-.name {
+.team-content {
   padding-top: 30px;
-  padding-bottom: 10px;
+  padding-bottom: 30px;
+}
+
+.name {
+  /* padding-top: 30px; */
+  margin-bottom: 10px;
 }
 
 /*======END OUR TEAM======*/
@@ -273,6 +282,12 @@ a {
   padding-bottom: 60px;
 }
 
+/* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+.logo-footer {
+  margin-bottom: 20px;
+}
+/* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+
 .logo-link-footer {
   color: var(--third-text-color);
 }
@@ -284,7 +299,7 @@ a {
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--third-text-color);
-  margin-top: 20px;
+  /* margin-top: 20px; */
 }
 
 .footer-items:not(:last-child) {
@@ -311,7 +326,6 @@ a {
   line-height: 1.62;
   text-align: center;
   letter-spacing: 0.03em;
-
   display: flex;
   justify-content: center;
   padding-bottom: 50px;
@@ -321,8 +335,6 @@ a {
   color: var(--black-color);
   cursor: pointer;
   padding: 6px 22px;
-  /* box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
-    0px 2px 2px rgba(0, 0, 0, 0.12); */
   border: none;
   border-radius: 4px;
 }
