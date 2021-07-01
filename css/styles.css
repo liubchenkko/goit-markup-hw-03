@@ -65,6 +65,8 @@ a {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
+  padding-top: 32px;
+  padding-bottom: 32px;
   border-bottom-width: 1px;
   border-bottom-style: solid;
   border-bottom-color: #ececec;
@@ -83,9 +85,6 @@ a {
 
 .header-container {
   display: flex;
-  width: 1200px;
-  padding-top: 32px;
-  padding-bottom: 32px;
 }
 
 .navigation {
@@ -282,11 +281,10 @@ a {
   padding-bottom: 60px;
 }
 
-/* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
 .logo-footer {
   margin-bottom: 20px;
+  display: block;
 }
-/* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
 
 .logo-link-footer {
   color: var(--third-text-color);
@@ -321,17 +319,17 @@ a {
 }
 
 .buttons-filtr {
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.62;
-  text-align: center;
-  letter-spacing: 0.03em;
   display: flex;
   justify-content: center;
   padding-bottom: 50px;
 }
 
 .buttons-filtr-items {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
   color: var(--black-color);
   cursor: pointer;
   padding: 6px 22px;
